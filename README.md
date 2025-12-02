@@ -19,3 +19,6 @@ The frontend developer(s) in charge of the mobile application has total freedom 
 
 ### Backend Design Patterns
 The backend developer(s) in charge of the REST API and server-side features must at least use a MVC pattern, more sofisticated patterns are allowed as well.
+
+#### Plus Tasks (Not Mandatory)
+- Create startup scripts for Linux and Windows systems that launch client and server simultaneously, use the root folder of the repository.
