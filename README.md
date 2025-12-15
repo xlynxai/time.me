@@ -9,16 +9,22 @@ The project is structured as a monorepo that includes codebases for both client 
 ```
 ### Required Tech Stack
 - Client: Expo React Native, Nativewind
-- Server: Node.js environment, Express.js REST API, MySQL/PostgreSQL or any BaaS.
+- Server: Node.js environment, Express.js REST API, MySQL/PostgreSQL/SQLite.
 
 ### Features
-- Tasks CRUD that includes: task name, description, starting and ending time (so you can measure the exact amount of time spend on the task assuming the user created the task at the same time they start working on it).
+- Tasks CRUD that includes: task name, description, starting and ending time (so you can measure the exact amount of time spent on the task assuming the user created the task at the same time they start working on it).
+
+### Critical Requirements
+The lack of any of these will lead the team to dismiss your solution.
+
+- Mobile application *must* load data from REST API.
+- Database *must* include an SQL template file or migration scripts in case an ORM is used.
 
 ### Visual Design
 The frontend developer(s) in charge of the mobile application has total freedom on the choosing of design style and components library.
 
 ### Backend Design Patterns
-The backend developer(s) in charge of the REST API and server-side features must at least use a MVC pattern, more sofisticated patterns are allowed as well.
+The backend developer(s) in charge of the REST API and server-side features must *at least* use a MVC pattern, more sofisticated patterns are allowed as well.
 
 #### Plus Tasks (Not Mandatory)
 - Create startup scripts for Linux and Windows systems that launch client and server simultaneously, use the root folder of the repository.
